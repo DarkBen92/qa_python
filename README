@@ -1,5 +1,6 @@
 test_add_new_book_add_two_books - В словарь books_genre были добавлены две книги
-test_add_new_book_name_more_than_forty_one_characters_not_add_book - Если название книги больше 41, книга не добавляется в словарь books_genre
+test_add_new_book_name_lass_than_forty_one_symbols_add_book - Если название книги меньше 41, книга добавляется в словарь
+test_add_new_book_name_more_than_forty_one_symbols_not_add_book - Если название книги больше 41, книга не добавляется в словарь books_genre
 test_add_new_book_repeat_book_not_add_book - Проверка, что две одинаковые книги добавились один раз
 test_set_book_genre_add_genre - В словаре books_genre у книги появился жанр
 test_get_book_genre_is_displayed_book_genre - get_book_genre выводит верный жанр
